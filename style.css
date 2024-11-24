@@ -1,0 +1,359 @@
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}header nav{
+    display: flex;
+
+    align-items: center;
+    justify-content: left;
+    background-color:#d1c3c3 ;
+    height: 80px;
+    text-align: left;
+     margin-left: 0; 
+     
+}
+header nav ul {
+    list-style: none;
+    
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+
+}
+
+header nav ul li {
+    transition: all 0.15 ease;
+}
+nav ul li:hover{background-color: #8b8686;}
+
+
+nav img{
+    width:90px;
+    height: 80px;
+    border-color: #131212;
+    border-radius: 5px;
+    margin-left: 3px;
+    
+}
+nav h1{
+font-size: 50px;
+font-family:'Times New Roman', Times, serif;  
+font-weight: 900;
+margin-right: 15px;
+
+
+
+
+}nav .line{
+    width: 50px;
+   align-items: center; 
+   justify-content: center;
+   height: 50px;
+   text-align: right;
+   margin-left: 700px;
+   margin-top: 30px;
+   transition: all 0.15 ease;
+
+}nav .line:hover{background-color:#8b8686;}
+/* main */
+.Main{
+ 
+    height: 600px;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .Main > .backimage{
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        position: relative;
+        
+    }
+    
+     .backimage > img{
+     width: 1350px; ;
+    height: 620px;
+        background-size: cover;
+        filter: blur(2.8px);
+        
+        
+    
+    }
+        
+    .mtext{
+        position: absolute;
+        top: 350px;
+        left: 650px;
+        transform: translate(-50%,-50%);
+        text-wrap: nowrap;
+        color: white;
+    }
+    
+    .mtext h1 {
+        font-size: 60px;
+        margin-left: 60px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:900 ;
+        
+    }
+    /* what */
+    .what-do{
+        display: flow-root;
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+
+    }
+    
+    .what-do > .box1{
+        width: 1350px;
+        height: 200px;
+        background-color:transparent;
+        border-radius: 3px;
+        border-color: #131212;
+        box-shadow: #8b8686;
+        position: absolute;
+        top: 100px;
+        left: 49.8%;
+        transform: translate(-50%,-50%);
+        display: flex;
+     }
+    .what-do > .box2{
+        width:1350px;
+        height: 200px;
+        background-color: transparent;
+        border-radius: 3px;
+        border-color: #131212;
+        box-shadow: #8b8686;
+         position: absolute;
+        top: 300px;
+        left: 49.8%;
+        transform: translate(-50%,-50%);
+        display: flex;
+    
+
+    }
+    .what-do > .box3{
+        width: 1350px;
+        height: 200px;
+        background-color:transparent;
+        border-radius: 3px;
+        border-color: #131212;
+        box-shadow: #8b8686;
+         position: absolute;
+        top: 500px;
+        left: 49.8%;
+        transform: translate(-50%,-50%);
+        display: flex;
+
+    } 
+    .box1 > .box{
+        width: 220px;
+        height: 200px;
+        background-color: transparent;
+        border-radius: 3px;
+        border-color: #131212;
+        box-shadow: #8b8686;
+        margin-left: 300px;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        
+       }
+      
+    .box2 > .box{
+        width: 220px;
+        height: 200px;
+        background-color: transparent;
+        border-radius: 3px;
+        border-color: #131212;
+        box-shadow: #8b8686;
+        margin-left: 100px;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        
+       }
+       .box2 > h1{
+        font-size: 75px;
+        font-weight: 600;
+        margin-left: 180px;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        
+        
+       }
+       
+    .box3 > .box{
+        width: 220px;
+        height: 200px;
+        background-color: transparent;
+        border-radius: 3px;
+        border-color: #131212;
+        box-shadow: #8b8686;
+        margin-left: 280px;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+       /*  solutions */
+
+       #solution{
+         width: 1350px;
+         background-color: rgb(29, 105, 63);
+         display: flex;
+         position: relative;
+         margin-top: 620px;
+         height: 380px;
+         border-color: #131212;
+         box-shadow: #131212;
+       }
+       #solution >.text{
+     width: 400px; 
+     height:500px;
+     position: absolute;
+     top:200px;
+     left:200px;
+     transform: translate(-50%,-50%);
+     
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     
+       }
+       .text > h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-weight: 800;
+        margin-top:200px;
+       }
+       .video{
+        width: 1000px; 
+        height:500px;       
+        position: absolute;
+        top:250px;
+        left:850px;
+        transform: translate(-50%,-50%);
+        display: flex;
+        
+          }
+          .video  video{
+            width: 475px;
+            height: 350px;
+            margin-left: 15px;
+            position: relative;
+            display: flex;
+          }
+          #blog{
+            background-color:color(srgb red green blue) ;
+            width: 1350px;
+            height: 500px;
+           
+          }
+          #blog >.blog1{
+            height: 200px;          
+             width: 1150px;
+             background-color: #cb8447;
+            color: white;
+            margin-left: 200px;
+            text-align: center;
+             padding: 5px; 
+             border-radius: 8px;
+
+            
+          }
+          #blog >.blog2{
+            height: 200px;          
+             width: 1150px;
+             background-color: #cb8447;
+             margin: 5px;
+             padding: 5px;
+             color: white;
+            margin-left: 200px;
+            text-align: center;
+            border-width: 2px;
+            border-radius: 8px;
+            
+             
+             
+          }
+         #blog > h1{
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-size: 50px;
+            margin: 5px;
+            padding: 5px;
+            text-decoration: underline;color:rgb(43, 43, 136);
+         }
+         #blog > .btn{
+           justify-content:  center;
+            height: 30px;
+            width: 90px;
+            text-align: center;
+            align-items: center; 
+            margin-left: 700px; 
+            margin-bottom: 10px;
+            padding: 5px;
+            color: black
+            ;
+
+         }#foot{
+            background-color: #3b0fa2;
+            width: 1350px;
+            height: 500px;
+            display: flex;
+         }#foot> .connect{
+            width: 800px;
+            height: 200px;
+            background-color:transparent;
+            color: black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            margin: 5px;
+            padding: 5px;
+         }#foot> .form{
+            width: 200px;
+            height: 200px;
+            background-color:transparent;
+            color: black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            margin: 5px;
+            padding: 5px;
+         }
+         
